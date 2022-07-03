@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641117233145",
+    "project_id": "emaillogin-f38bb",
+    "storage_bucket": "emaillogin-f38bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641117233145:android:c2180add1704978f3ba728",
+        "android_client_info": {
+          "package_name": "com.maxeff.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641117233145-gsa9je7c8a2ccnl6untmvv9n7erv3vk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFOmSOd1HH3b06H_-V9h-dTDmFVV8jrgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641117233145-gsa9je7c8a2ccnl6untmvv9n7erv3vk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
