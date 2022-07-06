@@ -19,6 +19,7 @@ class _LoginscreenState extends State<Loginscreen> {
             children: [
               RaisedButton(color: Colors.yellow, child: Text('sign-in'), onPressed: () {}),
               RaisedButton(
+                color: Colors.green,
                 child: Text('sign-up'),
                 onPressed: () {},
               ),
