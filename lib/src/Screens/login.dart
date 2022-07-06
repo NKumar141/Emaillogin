@@ -1,11 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class Loginscreen extends StatefulWidget {
   _LoginscreenState createState() => _LoginscreenState();
 }
 
 class _LoginscreenState extends State<Loginscreen> {
+  String _email, _password;
+  final auth = FirebaseAuth.instance;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,6 +24,11 @@ class _LoginscreenState extends State<Loginscreen> {
               decoration: InputDecoration(
                 hintText: 'Email',
               ),
+              onChanged: (value) {
+                setState(() {
+                  _email = value.trim();
+                });
+              },
             ),
           ),
           Padding(
@@ -30,6 +38,11 @@ class _LoginscreenState extends State<Loginscreen> {
               decoration: InputDecoration(
                 hintText: 'password',
               ),
+              onChanged: (value) {
+                setState(() {
+                  _password = value.trim();
+                });
+              },
             ),
           ),
           Row(
