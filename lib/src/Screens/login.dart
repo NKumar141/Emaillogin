@@ -7,6 +7,23 @@ class Loginscreen extends StatefulWidget {
 class _LoginscreenState extends State<Loginscreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(title: Text('Login'),),
+      body: Column(
+        children: [
+          TextField(),
+          TextField(),
+          Row(children: [
+            RaisedButton(onPressed: () {
+              
+            }),
+            RaisedButton(onPressed: (){
+
+            },),
+          ],),
+        ],
+
+      ),
+    ),
   }
 }
