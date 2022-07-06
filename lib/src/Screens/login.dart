@@ -16,6 +16,7 @@ class _LoginscreenState extends State<Loginscreen> {
           TextField(),
           TextField(),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               RaisedButton(color: Colors.yellow, child: Text('sign-in'), onPressed: () {}),
               RaisedButton(
