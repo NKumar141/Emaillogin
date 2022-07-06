@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Loginscreen extends StatefulWidget {
   _LoginscreenState createState() => _LoginscreenState();
@@ -16,6 +17,7 @@ class _LoginscreenState extends State<Loginscreen> {
           Padding(
             padding: const EdgeInsets.all(8),
             child: TextField(
+              keyboardType: TextInputType.emailAddress,
               decoration: InputDecoration(
                 hintText: 'Email',
               ),
@@ -24,6 +26,7 @@ class _LoginscreenState extends State<Loginscreen> {
           Padding(
             padding: const EdgeInsets.all(8),
             child: TextField(
+              keyboardType: TextInputType.visiblePassword,
               decoration: InputDecoration(
                 hintText: 'password',
               ),
