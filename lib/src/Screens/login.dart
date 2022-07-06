@@ -17,7 +17,10 @@ class _LoginscreenState extends State<Loginscreen> {
             padding: const EdgeInsets.all(8),
             child: TextField(),
           ),
-          TextField(),
+          Padding(
+            padding: const EdgeInsets.all(8),
+            child: TextField(),
+          ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
