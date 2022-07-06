@@ -61,7 +61,6 @@ class _LoginscreenState extends State<Loginscreen> {
                 child: Text('sign-up'),
                 onPressed: () {
                   auth.createUserWithEmailAndPassword(email: _email, password: _password);
-                  Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => Homescreen()));
                 },
               ),
             ],

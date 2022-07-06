@@ -18,8 +18,7 @@
           "client_type": 3
         }
       ],
-      "api_key":
-        "AIzaSyCb8auOmmZ4uxHqePfT39FUfybUOGwZR40",
+      "api_key": "AIzaSyCb8auOmmZ4uxHqePfT39FUfybUOGwZR40",
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
