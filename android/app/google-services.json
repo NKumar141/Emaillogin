@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "641117233145",
-    "project_id": "emaillogin-f38bb",
-    "storage_bucket": "emaillogin-f38bb.appspot.com"
+    "project_number": "1068698477227",
+    "project_id": "login-8140b",
+    "storage_bucket": "login-8140b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:641117233145:android:c2180add1704978f3ba728",
+        "mobilesdk_app_id": "1:1068698477227:android:29b1895133617b1ed20dee",
         "android_client_info": {
           "package_name": "com.maxeff.myapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "641117233145-gsa9je7c8a2ccnl6untmvv9n7erv3vk5.apps.googleusercontent.com",
+          "client_id": "1068698477227-sbhucgdhr46dad14ql7rhdfh2n3uih4r.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBkm5jA8JRlEm-Kbc5TpIxbYPy8gZ7U3ak"
+          "current_key": "AIzaSyCb8auOmmZ4uxHqePfT39FUfybUOGwZR40"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "641117233145-gsa9je7c8a2ccnl6untmvv9n7erv3vk5.apps.googleusercontent.com",
+              "client_id": "1068698477227-sbhucgdhr46dad14ql7rhdfh2n3uih4r.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
