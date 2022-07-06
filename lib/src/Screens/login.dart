@@ -17,8 +17,9 @@ class _LoginscreenState extends State<Loginscreen> {
           TextField(),
           Row(
             children: [
-              RaisedButton(onPressed: () {}),
+              RaisedButton(child: Text('sign-in'), onPressed: () {}),
               RaisedButton(
+                child: Text('sign-up'),
                 onPressed: () {},
               ),
             ],
