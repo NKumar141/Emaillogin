@@ -8,12 +8,12 @@ import 'package:firebase_options/firebase_options.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-      name: 'SecondaryApp',
-      options: const FirebaseOptions(
-        apiKey: '...',
-        appId: '...',
-        messagingSenderId: '...',
-        projectId: '...',
-      ));
+    options: const FirebaseOptions(
+      apiKey: '...',
+      appId: '...',
+      messagingSenderId: '...',
+      projectId: '...',
+    ),
+  );
   runApp(app());
 }
