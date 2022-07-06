@@ -8,22 +8,23 @@ class _LoginscreenState extends State<Loginscreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Login'),),
+      appBar: AppBar(
+        title: Text('Login'),
+      ),
       body: Column(
         children: [
           TextField(),
           TextField(),
-          Row(children: [
-            RaisedButton(onPressed: () {
-              
-            }),
-            RaisedButton(onPressed: (){
-
-            },),
-          ],),
+          Row(
+            children: [
+              RaisedButton(onPressed: () {}),
+              RaisedButton(
+                onPressed: () {},
+              ),
+            ],
+          ),
         ],
-
       ),
-    ),
+    );
   }
 }
