@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'home.dart';
 
 class Loginscreen extends StatefulWidget {
   _LoginscreenState createState() => _LoginscreenState();
@@ -48,11 +49,20 @@ class _LoginscreenState extends State<Loginscreen> {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              RaisedButton(color: Colors.yellow, child: Text('sign-in'), onPressed: () {}),
+              RaisedButton(
+                  color: Colors.yellow,
+                  child: Text('sign-in'),
+                  onPressed: () {
+                    auth.signInWithEmailAndPassword(email: _email, password: _password);
+                    Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => Homescreen()));
+                  }),
               RaisedButton(
                 color: Colors.green,
                 child: Text('sign-up'),
-                onPressed: () {},
+                onPressed: () {
+                  auth.createUserWithEmailAndPassword(email: _email, password: _password);
+                  Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => Homescreen()));
+                },
               ),
             ],
           ),
